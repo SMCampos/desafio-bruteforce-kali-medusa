@@ -1,0 +1,6 @@
+Configura teclado anbt2 no Kali Linux
+Para verificar o layout: Execute o comando setxkbmap -query para ver o layout atual.
+Para definir o layout ABNT2: Use o comando setxkbmap -model abnt2 -layout br para configurar seu teclado para o padrão brasileiro.
+Para editar o arquivo de configuração do teclado (método permanente):
+Abra o arquivo com o comando sudo nano /etc/default/keyboard.
+Adicione as seguintes linhas no arquivo para definir o modelo abnt2: XKBMODEL="abnt2". 
